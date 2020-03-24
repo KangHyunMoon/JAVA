@@ -49,8 +49,37 @@ public class test_class {
 		boolean myBool = true;
 		char myChar = 'm';
 		
+		String myString = "moon";
 		
 		
+		// type casting 
+		
+		myInt = myShort; // OK
+		//myShort = myInt; // error
+		
+		myInt = (int)myDouble;
+		
+		
+		// operator
+		
+		int x_1 = 1, x_2 = 2;
+		int x_3 = x_1 + x_2;
+		x_3 = x_1-x_2;
+		x_3 = x_1*x_2;
+		x_3 = x_1/x_2;
+		x_3 = x_1%x_2;
+		
+		int myStrLen = myString.length();
+		String myStrUpper = myString.toUpperCase();
+		String myStrLower = myString.toLowerCase();
+		
+		myString.indexOf('m'); // 0
+		
+		// Math
+		
+		int max_val = Math.max(5,10);
+		
+		System.out.print(max_val);
 		
 		
 		
