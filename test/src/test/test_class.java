@@ -77,11 +77,77 @@ public class test_class {
 		
 		// Math
 		
-		int max_val = Math.max(5,10);
+		int max_val = Math.max(5,10); // 10
+		int min_val = Math.min(5,10); // 5
+		double sqrt_val = Math.sqrt(64); // 8
+		double abs_val = Math.abs(-16.4); // 16.4
+		double random_val = Math.random(); // 0<= val <1	
 		
-		System.out.print(max_val);
+		System.out.println(10 > 9); // print true
+		
+		// condition 
+		
+		int a = 1001;
+		
+		if (a > 10) {
+			System.out.println(a);
+		}
+		
+		if (true) {
+			System.out.println(a);
+		}
+		
+		if (a>10000) {
+			// first condition
+		}
+		
+		else if (a > 1000){
+			// second condition
+		}
+		
+		else {
+			// other
+		}
+		
+		String strRet = a > 10 ? "bigger than 10" : "lower than 10"; 
 		
 		
+		// switch 
+		
+		switch (a) {
+		case 100 :
+			break;
+		case 10 :
+			break;
+		default :
+			//break;
+		}
+		
+		
+		// loops
+		
+		while (true) {
+			System.out.println("in while loop");
+			break;
+			// if no break? infinite loops..
+		}
+		
+		
+		do {
+			System.out.println("in do");
+		}
+		while (false);
+		
+		
+		for (int i=0; i<100; i++) {
+			System.out.println(i);
+		}
+		
+		String arr_int[] = {"1", "2", "3", "4"};
+		
+		for (String str : arr_int) {
+			System.out.println(str);
+		}
 		
 	}
 
